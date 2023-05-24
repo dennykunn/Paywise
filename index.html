@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paywise</title>
+    <link rel="stylesheet" href="tailwind.min.css">
+</head>
+<body style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+    <div class="" style="background-color: rgb(17, 36, 78);">
+        <!-- navbar -->
+        <nav class="px-20 flex justify-between items-center py-2">
+            <div>
+                <a class="text-xl font-semibold text-white" href="#">paywise</a>
+            </div>
+
+            <div class="text-gray-300 text-sm space-x-8">
+                <a href="#">How It Work</a>
+                <a href="#">Solutions</a>
+                <a href="#">Debit Card</a>
+                <a href="#">Help Center</a>
+                <button class="text-black rounded-md bg-white px-8 py-2 font-semibold focus:outline-none">Log In</button>
+            </div>
+        </nav>
+
+        <div class="max-w-5xl mx-auto py-32">
+            <p class="text-6xl font-bold w-3/6 text-white">Start <span class="text-blue-400">saving money</span> on your next tranfer</p>
+            <p class="text-sm text-gray-300 w-3/6 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, nemo unde at aliquid amet natus quos! Ullam esse veniam natus?</p>
+
+            <div class="w-full rounded-lg bg-white py-5 px-6 space-x-8 flex mt-2">
+                <div class="w-2/5">
+                    <p class="text-gray-600 text-sm font-semibold">Your Send</p>
+                    <div class="">
+                        <div class="border-b-2 border-red-200">
+                            <div class="flex items-center">
+                                <span class="font-semibold text-2xl">
+                                    $
+                                </span>
+                                <input type="text" name="price" id="price" class="w-full pl-1 pr-10 focus:outline-none placeholder-black font-semibold text-2xl" placeholder="1000">
+                                <div>
+                                    <label for="currency" class="sr-only">Currency</label>
+                                    <select id="currency" name="currency" class="h-full py-0 pl-2 pr-1 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md">
+                                        <option>USD</option>
+                                        <option>CAD</option>
+                                        <option>EUR</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="divide-y-4 divide-black divide-opacity-25"></div>
+                </div>
+
+                <!-- 2 -->
+                <div class="w-2/5">
+                    <p class="text-gray-600 text-sm font-semibold">They Receive</p>
+                    <div class="">
+                        <div class="border-b-2 border-red-200">
+                            <div class="flex items-center">
+                                <span class="font-semibold text-2xl">
+                                    $
+                                </span>
+                                <input type="text" name="price" id="price" class="w-full pl-1 pr-10 focus:outline-none placeholder-black font-semibold text-2xl" placeholder="1,154.57">
+                                <div>
+                                    <label for="currency" class="sr-only">Currency</label>
+                                    <select id="currency" name="currency" class="h-full py-0 pl-2 pr-1 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md">
+                                        <option>USD</option>
+                                        <option>CAD</option>
+                                        <option>EUR</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="divide-y-4 divide-black divide-opacity-25"></div>
+                </div>
+
+                <!-- 3 -->
+                <button class="w-1/5 px-4 py-2 font-semibold text-sm text-white rounded-lg focus:outline-none" style="background-color: rgb(17, 36, 78);;">
+                    Get Started
+                </button>
+            </div>
+
+            <p class="text-white italic mt-3 text-gray-300 text-right text-sm">Conversion Rate = 1.15875, Our Fee = 3.69 GBP</p>
+        </div>
+    </div>
+
+    <div class="px-20 py-24 grid grid-cols-4">
+        <div class="col-span-1 flex items-center space-x-2 -mt-10">
+            <div class="w-10 rounded-full bg-black" style="height: 2px;"></div>
+            <p class="text-sm font-bold">WHO WE ARE</p>
+        </div>
+
+        <div class="col-span-3">
+            <p class="text-6xl font-bold w-11/12">We're on average <span class="text-purple-500">8x cheaper</span> than tradisional banks</p>
+        </div>
+
+        <div class="col-span-2 mt-10">
+            <img class="w-9/12" src="1.jpg" alt="" style="height: 70vh;">
+        </div>
+
+        <div class="col-span-2 flex flex-col justify-center space-y-3 mt-10">
+            <p class="font-semibold text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quas dolor voluptatem! Sed tempore doloremque distinctio delectus architecto libero omnis quibusdam. Necessitatibus excepturi mollitia dignissimos quae corporis!</p>
+            <p class="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae odit eius maiores quisquam quibusdam iure libero sunt nobis praesentium numquam? Tempora similique, ipsa ut quam mollitia quisquam? Odit nesciunt laborum eum earum quis quas voluptatem? Quam cumque perferendis numquam illum.</p>
+            <p class="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, sunt veniam! Ipsa voluptate reiciendis totam. Magni animi blanditiis illum temporibus quasi atque tempora sequi quis?</p>
+            <a class="text-purple-500 text-sm underline" href="#">Learn More</a>
+        </div>
+    </div>
+
+    <div class="px-20 pb-24 grid grid-cols-4">
+        <div class="col-span-1 flex items-center space-x-2 -mt-10">
+            <div class="w-10 rounded-full bg-black" style="height: 2px;"></div>
+            <p class="text-sm font-bold">WHO WE ASR</p>
+        </div>
+
+        <div class="col-span-3">
+            <p class="text-6xl font-bold w-11/12">Everything you <span class="text-purple-500">need to know</span> about sending money</p>
+        </div>
+
+        <div class="col-span-2 mt-10">
+            <img class="w-9/12" src="2.jpg" alt="" style="height: 70vh;">
+        </div>
+
+        <div class="col-span-2 flex flex-col justify-center mt-10">
+            <p class="font-semibold text-xl">How much does PayWise cost?</p>
+            <p class="font-semibold text-xl mt-3">How does PayWise work?</p>
+            <p class="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae odit eius maiores quisquam quibusdam iure libero sunt nobis praesentium numquam? Tempora similique, ipsa ut quam mollitia quisquam? Odit nesciunt laborum eum earum quis quas voluptatem? Quam cumque perferendis numquam illum.</p>
+            <p class="font-semibold text-xl mt-3">How do i send a transfer?</p>
+            <p class="font-semibold text-xl mt-3">How money is sent to my recipient?</p>
+            <p class="font-semibold text-xl mt-3">Do i get a discount after sign up?</p>
+        </div>
+    </div>
+
+    <div class="px-20 py-24 grid grid-cols-3" style="background-color: rgb(17, 36, 78);">
+        <div class="col-span-1 flex items-center space-x-2 -mt-10 text-white">
+            <div class="w-10 rounded-full bg-white" style="height: 2px;"></div>
+            <p class="text-sm font-bold">WHO WE ASR</p>
+        </div>
+
+        <div class="col-start-1 col-span-2">
+            <p class="text-5xl font-bold text-white">Join the <span class="text-blue-400">4 million users</span> worldwide trusting PayWise every day</p>
+        </div>
+
+        <div class="col-start-1 col-span-1 mt-8">
+            <div class="h-10 w-10 rounded-full bg-white"></div>
+            <p class="text-2xl font-semibold text-white mt-3">Create an account</p>
+            <p class="text-sm text-gray-300 mt-2">from anywhere in the world</p>
+        </div>
+
+        <div class="col-span-1 mt-10">
+            <div class="h-10 w-10 rounded-full bg-white"></div>
+            <p class="text-2xl font-semibold text-white mt-3">Send money</p>
+            <p class="text-sm text-gray-300 mt-2">to your loved ones all over the world</p>
+        </div>
+
+        <div class="col-span-1 mt-8">
+            <div class="h-10 w-10 rounded-full bg-white"></div>
+            <p class="text-2xl font-semibold text-white mt-3">Sit back and relax</p>
+            <p class="text-sm text-gray-300 mt-2">while we do the hard lifting for you</p>
+        </div>
+
+        <div class="col-span-2 flex  space-x-2 mt-12">
+            <input class="w-2/4 px-4 py-2 focus:outline-none" type="text" placeholder="Enter your email address">
+            <button class="w-1/4 h-full bg-blue-400 px-4 py-2 text-sm font-bold focus:outline-none">Get Started</button>
+        </div>
+    </div>
+
+    <footer class="px-20 pt-20">
+        <div class="flex justify-between items-center py-2">
+            <div>
+                <a class="text-xl font-semibold text-black" href="#">paywise</a>
+            </div>
+
+            <div class="space-x-4 flex">
+                <div class="bg-black rounded-md w-24 h-10"></div>
+                <div class="bg-black rounded-md w-32 h-10"></div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-4">
+            <div class="col-span-1 py-8">
+                <p class="font-bold text-xl">Product</p>
+                <div class="text-gray-500 space-y-2 mt-1 text-sm flex flex-col">
+                    <a href="#">Rates $ Fees</a>
+                    <a href="#">How it Works</a>
+                    <a href="#">Security</a>
+                    <a href="#">Reviews</a>
+                    <a href="#">Transfer & Locations</a>
+                    <a href="#">Partners</a>
+                    <a href="#">Refer Friends</a>
+                </div>
+            </div>
+
+            <div class="col-span-1 py-8">
+                <p class="font-bold text-xl">Company</p>
+                <div class="text-gray-500 space-y-2 mt-1 text-sm flex flex-col">
+                    <a href="#">About</a>
+                    <a href="#">Team</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Press</a>
+                    <a href="#">News & Blog</a>
+                </div>
+            </div>
+
+            <div class="col-span-1 py-8">
+                <p class="font-bold text-xl">Help Center</p>
+                <div class="text-gray-500 space-y-2 mt-1 text-sm flex flex-col">
+                    <a href="#">Live Chat</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Feedback</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Security & Privacy</a>
+                    <a href="#">Cookie Police</a>
+                </div>
+            </div>
+
+            <div class="col-span-1 py-8">
+                <p class="font-bold text-xl">Connect</p>
+                <div class="text-gray-500 space-y-2 mt-1 text-sm flex flex-col">
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Instagram</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-full bg-gray-300" style="height: 1px;"></div>
+
+        <div class="flex justify-between py-6">
+            <p class="text-gray-500 text-sm">&copy; Condinental 2021 Allright Reserved</p>
+            <p class="text-gray-500 text-sm underline">Website by <span>DennyKunn</span></p>
+        </div>
+    </footer>
+</body>
+</html>
